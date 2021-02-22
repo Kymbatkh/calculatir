@@ -1,0 +1,15 @@
+body {
+    background-image: url("bckq.jpg");
+    background-size: cover;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+.white-box {
+    background-color: white;
+    padding: 20px;
+    max-width: 70%
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Qalyn Mal Calculator</title>
+    <script type="text/javascript" src="js.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="white-box">
+        <p>Bride's education</p>
+        <select id="education">
+            <option value=1.5>Undergraduate degree</option>
+            <option value=1.2>College degree</option>
+            <option value=1.05>High school degree</option>
+            <option value=0.9>Middle school degree</option>
+        </select>
+        <p>Bride's family net worth</p>
+        <select id="family">
+            <option value=2>More than 100,000$</option>
+            <option value=1.5>Between 50,000$ and 100,000$</option>
+            <option value=1.2>Less than 50,000$</option>
+        </select>
+        <p>Bride's skills</p>
+        <input class="skills" type="checkbox" value=100>Playing on dombra
+        <input class="skills" type="checkbox" value=200>Good cook
+        <input class="skills" type="checkbox" value=150>Easygoing character
+        <input class="skills" type="checkbox" value=100>Sings well
+        <p>Bride's age</p>
+        <input id="age0" type="radio" name="age" value=1.5>Between 18 - 23
+        <input id="age1" type="radio" name="age" value=1.2>Between 24 - 27
+        <input id="age2" type="radio" name="age" value=0.95>28+
+        <p>Bride's reputation</p>
+        <input id="gossip0" type="checkbox" value=0.85>Gossips about her parent's attitude
+        <input id="gossip1" type="checkbox" value=0.9>Gossips about her character
+        <input id="gossip2" type="checkbox" value=200>General gossips around her person
+        <br>
+        <button onclick="code()">Calculate</button>
+        <h2 id="result">Qalyn Mal: 0$</h2>
+    </div>
+</body>
+
+</html>
